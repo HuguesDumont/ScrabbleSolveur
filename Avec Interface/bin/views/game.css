@@ -1,0 +1,93 @@
+.tile, .tripleWord, .doubleWord, .tripleLetter, .doubleLetter, .full, .empty {
+	-fx-border-style: solid;
+	-fx-border-width: 1px 1px 1px 1px;
+  
+	-fx-min-width: 35;
+	-fx-pref-width: 35;
+	-fx-max-width: 35;
+	
+	-fx-min-height: 35;
+	-fx-pref-height: 35;
+	-fx-max-height: 35;
+	
+	-fx-font-size: 20pt;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+
+.turn {
+	-fx-border-style: solid;
+	-fx-border-width: 1px 1px 1px 1px;
+	
+	-fx-min-height: 40;
+	-fx-pref-height: 40;
+	-fx-max-height: 40;
+	
+	-fx-min-width: 100;
+	-fx-pref-width: 100;
+	-fx-max-width: 100;
+	
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+
+.labelPlayer, .scorePlayer{
+	-fx-min-height: 40;
+	-fx-pref-height: 40;
+	-fx-max-height: 40;
+	
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+
+.labelPlayer {
+	-fx-min-width: 180;
+	-fx-pref-width: 180;
+	-fx-max-width: 180;
+}
+
+.scorePlayer {
+	-fx-min-width: 100;
+	-fx-pref-width: 100;
+	-fx-max-width: 100;
+}
+
+.tripleWord {
+	-fx-background-color: #FF0000;
+}
+
+.doubleWord {
+	-fx-background-color: #FFB6C1;
+}
+
+.doubleLetter {
+	-fx-background-color: #E0FFFF;
+}
+
+.tripleLetter {
+	-fx-background-color: #4169E1;
+}
+
+.full {
+	-fx-background-color: #FFE4C4;
+}
+
+.empty {
+	-fx-background-color: #228B22;
+}
+
+.column {
+	-fx-min-width: 35;
+	-fx-pref-width: 35;
+	-fx-max-width: 35;
+}
+
+.row {
+	-fx-min-height: 35;
+	-fx-pref-height: 35;
+	-fx-max-height: 35;
+}
