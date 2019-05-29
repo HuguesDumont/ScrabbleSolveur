@@ -1,1 +1,10 @@
+Pour installer l'application :
 
+Récupérer les différents .jar du projet (à la racine de la branche master) :
+- json-20180813.jar
+- log4j-1.2.17.jar
+- org.eclipse.fx.ide.css.jfx8_3.4.1.201810030906.jar
+et les ajouter au projet 
+
+Pour pouvoir utiliser JavaFx, il faut compiler le projet en Java 8 via le JDK (la librairie de JavaFx est incluse dans le JDK8).
+La compilation se fait sans argument particulier.
